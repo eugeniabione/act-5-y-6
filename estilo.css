@@ -21,15 +21,16 @@
  nav { 
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 10px;
+    align-items: stretch;
+   
+   padding-left: 10px;
     padding-bottom: 10px;
     } 
     
 ul{ 
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: stretch;
     } 
 
 li{ 
