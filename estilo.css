@@ -1,0 +1,94 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cajaheader { 
+    background-color: rgb(117, 211, 211) ;
+    border: 2px solid blue;
+    width: 100%;
+    height: auto;   
+    margin-bottom: 20px;
+} 
+
+.Nombre { 
+    color: rgb(5, 70, 70);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+ } 
+ 
+ nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    } 
+    
+ul{ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    } 
+
+li{ 
+    list-style: none;
+    margin: 0 1rem;
+   padding: 1rem 0 ;
+    } 
+    
+
+ .cajamain { 
+    background-color: rgb(12, 158, 158) ;
+    border: 2px solid rgb(7, 7, 82);
+    width: 100%;
+    height: auto;   
+    margin-bottom: 20px;
+    padding: 20px;
+} 
+
+.cajafooter { 
+    background-color: rgb(82, 110, 110) ;
+    border: 2px solid rgb(77, 77, 121);
+    width: 100%;
+    height: auto;   
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.cajaformulario{
+    background-color: rgb(181, 207, 207) ;
+    border: 3px solid rgb(37, 37, 82);
+    width: 30%;
+    height: auto;   
+    padding: 10px 40px 10px 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.margen{ 
+   margin-left: 90px;
+} 
+
+/* estilo a la tabla */
+.dias { font-weight: bold;
+    font-size: xx-large;
+   line-height: 40px;
+} 
+.horarios { font-style: italic;
+} 
+.dia1 { color: rgb(5, 70, 70);
+} 
+.dia2 { color: rgb(13, 122, 31);
+} 
+.dia3 { color: rgb(98, 167, 19);
+} 
+.dia4 { color: rgb(19, 145, 167);
+}
+.dia5 { color: rgb(94, 85, 148);
+}
+.dia6 { color: rgb(191, 130, 199);
+}
